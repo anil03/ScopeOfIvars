@@ -34,7 +34,7 @@
     //    It can not access by the subclass or any other class
     //    It will give you compiler error
     //    NSLog(@"Private Bool %d",vc->privateBool); ///Instance variable 'privateBool' is private
-
+// we added new comment line.
     
     
     
