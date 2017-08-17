@@ -9,6 +9,19 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+{
+    @public
+    int numericNumber;
+    
+    @private
+    BOOL privateBool;
+    
+    @protected
+    char protectedLetter;
+    
+}
+@property (nonatomic) int numericNumber;
+
 
 
 @end

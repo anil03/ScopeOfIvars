@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		176C96CE1F4570B700B3EFB9 /* ViewControllerAnotherClassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 176C96CD1F4570B700B3EFB9 /* ViewControllerAnotherClassViewController.m */; };
 		17E6343A1F45699500D417CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E634391F45699500D417CE /* main.m */; };
 		17E6343D1F45699500D417CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E6343C1F45699500D417CE /* AppDelegate.m */; };
 		17E634401F45699500D417CE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E6343F1F45699500D417CE /* ViewController.m */; };
@@ -15,6 +16,7 @@
 		17E634481F45699500D417CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17E634461F45699500D417CE /* LaunchScreen.storyboard */; };
 		17E634531F45699500D417CE /* IvarsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E634521F45699500D417CE /* IvarsTests.m */; };
 		17E6345E1F45699500D417CE /* IvarsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E6345D1F45699500D417CE /* IvarsUITests.m */; };
+		17E6346D1F456AC200D417CE /* ViewControllerSubClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E6346C1F456AC100D417CE /* ViewControllerSubClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		176C96CC1F4570B700B3EFB9 /* ViewControllerAnotherClassViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerAnotherClassViewController.h; sourceTree = "<group>"; };
+		176C96CD1F4570B700B3EFB9 /* ViewControllerAnotherClassViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerAnotherClassViewController.m; sourceTree = "<group>"; };
 		17E634351F45699500D417CE /* Ivars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ivars.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17E634391F45699500D417CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		17E6343B1F45699500D417CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +55,8 @@
 		17E634591F45699500D417CE /* IvarsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IvarsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		17E6345D1F45699500D417CE /* IvarsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IvarsUITests.m; sourceTree = "<group>"; };
 		17E6345F1F45699500D417CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17E6346B1F456AC100D417CE /* ViewControllerSubClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerSubClass.h; sourceTree = "<group>"; };
+		17E6346C1F456AC100D417CE /* ViewControllerSubClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerSubClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				17E6343C1F45699500D417CE /* AppDelegate.m */,
 				17E6343E1F45699500D417CE /* ViewController.h */,
 				17E6343F1F45699500D417CE /* ViewController.m */,
+				17E6346B1F456AC100D417CE /* ViewControllerSubClass.h */,
+				17E6346C1F456AC100D417CE /* ViewControllerSubClass.m */,
+				176C96CC1F4570B700B3EFB9 /* ViewControllerAnotherClassViewController.h */,
+				176C96CD1F4570B700B3EFB9 /* ViewControllerAnotherClassViewController.m */,
 				17E634411F45699500D417CE /* Main.storyboard */,
 				17E634441F45699500D417CE /* Assets.xcassets */,
 				17E634461F45699500D417CE /* LaunchScreen.storyboard */,
@@ -272,6 +282,8 @@
 			files = (
 				17E634401F45699500D417CE /* ViewController.m in Sources */,
 				17E6343D1F45699500D417CE /* AppDelegate.m in Sources */,
+				176C96CE1F4570B700B3EFB9 /* ViewControllerAnotherClassViewController.m in Sources */,
+				17E6346D1F456AC200D417CE /* ViewControllerSubClass.m in Sources */,
 				17E6343A1F45699500D417CE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +428,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Ivars/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompanyname.Ivars;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -427,6 +440,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Ivars/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompanyname.Ivars;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -498,6 +512,7 @@
 				17E634641F45699500D417CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		17E634651F45699500D417CE /* Build configuration list for PBXNativeTarget "IvarsTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +521,7 @@
 				17E634671F45699500D417CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		17E634681F45699500D417CE /* Build configuration list for PBXNativeTarget "IvarsUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +530,7 @@
 				17E6346A1F45699500D417CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

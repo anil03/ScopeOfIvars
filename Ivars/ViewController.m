@@ -14,9 +14,17 @@
 
 @implementation ViewController
 
+@synthesize numericNumber = _numericNumber;
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    _numericNumber = 3;
+    protectedLetter = 'Q';
+    privateBool = NO;
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
